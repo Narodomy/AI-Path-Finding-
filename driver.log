@@ -1,6 +1,6 @@
-[1678436664.620][INFO]: Starting Microsoft Edge WebDriver 110.0.1587.63 (b26c9b8fc01e4ee6478cd1585db0bdec672b52a6) on port 53854
-[1678436664.620][INFO]: Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
-[1678436667.118][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND InitSession {
+[1678437403.696][INFO]: Starting Microsoft Edge WebDriver 110.0.1587.63 (b26c9b8fc01e4ee6478cd1585db0bdec672b52a6) on port 55066
+[1678437403.696][INFO]: Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+[1678437406.203][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND InitSession {
    "capabilities": {
       "alwaysMatch": {
          "browserName": "MicrosoftEdge",
@@ -15,7 +15,7 @@
       } ]
    }
 }
-[1678436667.121][INFO]: Populating Preferences file: {
+[1678437406.206][INFO]: Populating Preferences file: {
    "alternate_error_pages": {
       "enabled": false
    },
@@ -68,7 +68,7 @@
       "enabled": false
    }
 }
-[1678436667.122][INFO]: Populating Local State file: {
+[1678437406.207][INFO]: Populating Local State file: {
    "background_mode": {
       "enabled": false
    },
@@ -78,20 +78,20 @@
       }
    }
 }
-[1678436667.124][INFO]: Launching Microsoft Edge: "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=3 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\After\AppData\Local\Temp\scoped_dir11424_850821815" --window-size=900,800 data:,
-[1678436667.632][INFO]: resolved localhost to ["::1","127.0.0.1"]
-[1678436667.633][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-[1678436667.637][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE InitSession {
+[1678437406.209][INFO]: Launching Microsoft Edge: "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=3 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\After\AppData\Local\Temp\scoped_dir15308_1976303936" --window-size=900,800 data:,
+[1678437406.716][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1678437406.717][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+[1678437406.723][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE InitSession {
    "capabilities": {
       "acceptInsecureCerts": false,
       "browserName": "msedge",
       "browserVersion": "110.0.1587.63",
       "ms:edgeOptions": {
-         "debuggerAddress": "localhost:53877"
+         "debuggerAddress": "localhost:55080"
       },
       "msedge": {
          "msedgedriverVersion": "110.0.1587.63 (b26c9b8fc01e4ee6478cd1585db0bdec672b52a6)",
-         "userDataDir": "C:\\Users\\After\\AppData\\Local\\Temp\\scoped_dir11424_850821815"
+         "userDataDir": "C:\\Users\\After\\AppData\\Local\\Temp\\scoped_dir15308_1976303936"
       },
       "networkConnectionEnabled": false,
       "pageLoadStrategy": "normal",
@@ -110,116 +110,90 @@
       "webauthn:extension:largeBlob": true,
       "webauthn:virtualAuthenticators": true
    },
-   "sessionId": "07742756ddd698a055321e4276b5efc0"
+   "sessionId": "9d6b220b3cb61399c0a3bfeca9374fe6"
 }
-[1678436667.639][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SetTimeouts {
+[1678437406.724][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SetTimeouts {
    "implicit": 10000
 }
-[1678436667.639][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SetTimeouts
-[1678436667.640][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND Navigate {
+[1678437406.725][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SetTimeouts
+[1678437406.726][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND Navigate {
    "url": "file://C:\\Users\\After\\Desktop\\All-Data\\WorldsHardestGameAI\\index.html"
 }
-[1678436667.640][INFO]: Waiting for pending navigations...
-[1678436667.641][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.670][INFO]: Waiting for pending navigations...
-[1678436667.722][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.722][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE Navigate
-[1678436667.723][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND ExecuteScript {
+[1678437406.726][INFO]: Waiting for pending navigations...
+[1678437406.730][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.758][INFO]: Waiting for pending navigations...
+[1678437406.808][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.808][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE Navigate
+[1678437406.810][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND ExecuteScript {
    "args": [  ],
    "script": "return getEnemiesAmount(1)"
 }
-[1678436667.723][INFO]: Waiting for pending navigations...
-[1678436667.724][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.726][INFO]: Waiting for pending navigations...
-[1678436667.727][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.727][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE ExecuteScript 5
-[1678436667.728][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND ExecuteScript {
+[1678437406.810][INFO]: Waiting for pending navigations...
+[1678437406.812][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.815][INFO]: Waiting for pending navigations...
+[1678437406.816][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.816][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE ExecuteScript 5
+[1678437406.820][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND ExecuteScript {
    "args": [  ],
    "script": "return getCoinsAmount(1)"
 }
-[1678436667.729][INFO]: Waiting for pending navigations...
-[1678436667.729][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.757][INFO]: Waiting for pending navigations...
-[1678436667.762][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.762][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE ExecuteScript 0
-[1678436667.764][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND ExecuteScript {
+[1678437406.820][INFO]: Waiting for pending navigations...
+[1678437406.847][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.853][INFO]: Waiting for pending navigations...
+[1678437406.854][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.854][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE ExecuteScript 0
+[1678437406.855][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND ExecuteScript {
    "args": [  ],
    "script": "return getCoinsCollected()"
 }
-[1678436667.764][INFO]: Waiting for pending navigations...
-[1678436667.765][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.766][INFO]: Waiting for pending navigations...
-[1678436667.767][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.767][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE ExecuteScript 0
-[1678436667.768][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND ExecuteScript {
+[1678437406.855][INFO]: Waiting for pending navigations...
+[1678437406.856][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.859][INFO]: Waiting for pending navigations...
+[1678437406.860][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.860][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE ExecuteScript 0
+[1678437406.861][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND ExecuteScript {
    "args": [  ],
    "script": "return getEndDistance(1)"
 }
-[1678436667.768][INFO]: Waiting for pending navigations...
-[1678436667.769][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.771][INFO]: Waiting for pending navigations...
-[1678436667.771][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.771][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE ExecuteScript 491.8861656928359
-[1678436667.772][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND ExecuteScript {
+[1678437406.861][INFO]: Waiting for pending navigations...
+[1678437406.862][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.864][INFO]: Waiting for pending navigations...
+[1678437406.864][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.864][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE ExecuteScript 491.8861656928359
+[1678437406.866][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND ExecuteScript {
    "args": [  ],
    "script": "return FPS"
 }
-[1678436667.773][INFO]: Waiting for pending navigations...
-[1678436667.773][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.774][INFO]: Waiting for pending navigations...
-[1678436667.775][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.775][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE ExecuteScript 40
-[1678436667.776][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437406.866][INFO]: Waiting for pending navigations...
+[1678437406.867][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.870][INFO]: Waiting for pending navigations...
+[1678437406.871][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.871][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE ExecuteScript 40
+[1678437406.873][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "type": "rawKeyDown",
       "windowsVirtualKeyCode": 87
    }
 }
-[1678436667.776][INFO]: Waiting for pending navigations...
-[1678436667.777][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.778][INFO]: Waiting for pending navigations...
-[1678436667.779][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.779][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436667.780][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437406.873][INFO]: Waiting for pending navigations...
+[1678437406.874][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.875][INFO]: Waiting for pending navigations...
+[1678437406.876][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.876][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437406.879][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "type": "char",
       "windowsVirtualKeyCode": 87
    }
 }
-[1678436667.780][INFO]: Waiting for pending navigations...
-[1678436667.783][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.784][INFO]: Waiting for pending navigations...
-[1678436667.785][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.785][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436667.798][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
-   "cmd": "Input.dispatchKeyEvent",
-   "params": {
-      "autoRepeat": true,
-      "type": "rawKeyDown",
-      "windowsVirtualKeyCode": 87
-   }
-}
-[1678436667.798][INFO]: Waiting for pending navigations...
-[1678436667.799][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.800][INFO]: Waiting for pending navigations...
-[1678436667.801][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.801][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436667.803][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
-   "cmd": "Input.dispatchKeyEvent",
-   "params": {
-      "autoRepeat": true,
-      "type": "char",
-      "windowsVirtualKeyCode": 87
-   }
-}
-[1678436667.803][INFO]: Waiting for pending navigations...
-[1678436667.804][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.806][INFO]: Waiting for pending navigations...
-[1678436667.807][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.807][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436667.828][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437406.879][INFO]: Waiting for pending navigations...
+[1678437406.879][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.880][INFO]: Waiting for pending navigations...
+[1678437406.881][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.881][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437406.899][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -227,12 +201,12 @@
       "windowsVirtualKeyCode": 87
    }
 }
-[1678436667.828][INFO]: Waiting for pending navigations...
-[1678436667.829][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.830][INFO]: Waiting for pending navigations...
-[1678436667.831][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.831][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436667.833][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437406.899][INFO]: Waiting for pending navigations...
+[1678437406.899][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.900][INFO]: Waiting for pending navigations...
+[1678437406.901][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.901][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437406.902][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -240,12 +214,12 @@
       "windowsVirtualKeyCode": 87
    }
 }
-[1678436667.833][INFO]: Waiting for pending navigations...
-[1678436667.833][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.834][INFO]: Waiting for pending navigations...
-[1678436667.834][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.834][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436667.859][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437406.902][INFO]: Waiting for pending navigations...
+[1678437406.903][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.903][INFO]: Waiting for pending navigations...
+[1678437406.904][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.904][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437406.930][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -253,12 +227,12 @@
       "windowsVirtualKeyCode": 87
    }
 }
-[1678436667.859][INFO]: Waiting for pending navigations...
-[1678436667.860][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.861][INFO]: Waiting for pending navigations...
-[1678436667.861][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.861][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436667.863][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437406.930][INFO]: Waiting for pending navigations...
+[1678437406.931][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.931][INFO]: Waiting for pending navigations...
+[1678437406.932][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.932][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437406.933][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -266,12 +240,12 @@
       "windowsVirtualKeyCode": 87
    }
 }
-[1678436667.863][INFO]: Waiting for pending navigations...
-[1678436667.863][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.864][INFO]: Waiting for pending navigations...
-[1678436667.864][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.864][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436667.890][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437406.933][INFO]: Waiting for pending navigations...
+[1678437406.933][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.934][INFO]: Waiting for pending navigations...
+[1678437406.934][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.934][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437406.946][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -279,12 +253,12 @@
       "windowsVirtualKeyCode": 87
    }
 }
-[1678436667.890][INFO]: Waiting for pending navigations...
-[1678436667.891][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.891][INFO]: Waiting for pending navigations...
-[1678436667.892][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.892][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436667.893][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437406.946][INFO]: Waiting for pending navigations...
+[1678437406.947][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.947][INFO]: Waiting for pending navigations...
+[1678437406.948][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.948][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437406.949][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -292,12 +266,12 @@
       "windowsVirtualKeyCode": 87
    }
 }
-[1678436667.893][INFO]: Waiting for pending navigations...
-[1678436667.894][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.894][INFO]: Waiting for pending navigations...
-[1678436667.895][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.895][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436667.920][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437406.949][INFO]: Waiting for pending navigations...
+[1678437406.950][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.950][INFO]: Waiting for pending navigations...
+[1678437406.951][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.951][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437406.962][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -305,12 +279,12 @@
       "windowsVirtualKeyCode": 87
    }
 }
-[1678436667.920][INFO]: Waiting for pending navigations...
-[1678436667.921][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.921][INFO]: Waiting for pending navigations...
-[1678436667.922][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.922][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436667.923][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437406.962][INFO]: Waiting for pending navigations...
+[1678437406.963][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.963][INFO]: Waiting for pending navigations...
+[1678437406.964][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.964][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437406.965][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -318,12 +292,12 @@
       "windowsVirtualKeyCode": 87
    }
 }
-[1678436667.923][INFO]: Waiting for pending navigations...
-[1678436667.924][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.924][INFO]: Waiting for pending navigations...
-[1678436667.925][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.925][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436667.952][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437406.965][INFO]: Waiting for pending navigations...
+[1678437406.965][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.966][INFO]: Waiting for pending navigations...
+[1678437406.966][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.966][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437406.978][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -331,12 +305,12 @@
       "windowsVirtualKeyCode": 87
    }
 }
-[1678436667.952][INFO]: Waiting for pending navigations...
-[1678436667.952][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.953][INFO]: Waiting for pending navigations...
-[1678436667.953][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.953][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436667.954][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437406.978][INFO]: Waiting for pending navigations...
+[1678437406.979][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.979][INFO]: Waiting for pending navigations...
+[1678437406.980][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.980][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437406.981][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -344,12 +318,12 @@
       "windowsVirtualKeyCode": 87
    }
 }
-[1678436667.954][INFO]: Waiting for pending navigations...
-[1678436667.955][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.956][INFO]: Waiting for pending navigations...
-[1678436667.956][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.956][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436667.967][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437406.981][INFO]: Waiting for pending navigations...
+[1678437406.982][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.982][INFO]: Waiting for pending navigations...
+[1678437406.983][INFO]: Done waiting for pending navigations. Status: ok
+[1678437406.983][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.009][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -357,12 +331,12 @@
       "windowsVirtualKeyCode": 87
    }
 }
-[1678436667.967][INFO]: Waiting for pending navigations...
-[1678436667.968][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.968][INFO]: Waiting for pending navigations...
-[1678436667.969][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.969][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436667.970][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.009][INFO]: Waiting for pending navigations...
+[1678437407.010][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.011][INFO]: Waiting for pending navigations...
+[1678437407.012][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.012][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.013][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -370,12 +344,12 @@
       "windowsVirtualKeyCode": 87
    }
 }
-[1678436667.970][INFO]: Waiting for pending navigations...
-[1678436667.970][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.971][INFO]: Waiting for pending navigations...
-[1678436667.971][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.971][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436667.983][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.013][INFO]: Waiting for pending navigations...
+[1678437407.014][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.014][INFO]: Waiting for pending navigations...
+[1678437407.015][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.015][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.039][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -383,12 +357,12 @@
       "windowsVirtualKeyCode": 87
    }
 }
-[1678436667.983][INFO]: Waiting for pending navigations...
-[1678436667.984][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.984][INFO]: Waiting for pending navigations...
-[1678436667.985][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.985][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436667.986][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.039][INFO]: Waiting for pending navigations...
+[1678437407.040][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.041][INFO]: Waiting for pending navigations...
+[1678437407.041][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.041][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.042][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -396,12 +370,64 @@
       "windowsVirtualKeyCode": 87
    }
 }
-[1678436667.986][INFO]: Waiting for pending navigations...
-[1678436667.987][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.987][INFO]: Waiting for pending navigations...
-[1678436667.988][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.988][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436667.989][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.042][INFO]: Waiting for pending navigations...
+[1678437407.042][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.043][INFO]: Waiting for pending navigations...
+[1678437407.044][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.044][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.055][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
+   "cmd": "Input.dispatchKeyEvent",
+   "params": {
+      "autoRepeat": true,
+      "type": "rawKeyDown",
+      "windowsVirtualKeyCode": 87
+   }
+}
+[1678437407.055][INFO]: Waiting for pending navigations...
+[1678437407.056][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.056][INFO]: Waiting for pending navigations...
+[1678437407.057][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.057][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.059][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
+   "cmd": "Input.dispatchKeyEvent",
+   "params": {
+      "autoRepeat": true,
+      "type": "char",
+      "windowsVirtualKeyCode": 87
+   }
+}
+[1678437407.059][INFO]: Waiting for pending navigations...
+[1678437407.060][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.060][INFO]: Waiting for pending navigations...
+[1678437407.060][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.061][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.085][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
+   "cmd": "Input.dispatchKeyEvent",
+   "params": {
+      "autoRepeat": true,
+      "type": "rawKeyDown",
+      "windowsVirtualKeyCode": 87
+   }
+}
+[1678437407.085][INFO]: Waiting for pending navigations...
+[1678437407.087][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.087][INFO]: Waiting for pending navigations...
+[1678437407.088][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.088][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.089][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
+   "cmd": "Input.dispatchKeyEvent",
+   "params": {
+      "autoRepeat": true,
+      "type": "char",
+      "windowsVirtualKeyCode": 87
+   }
+}
+[1678437407.089][INFO]: Waiting for pending navigations...
+[1678437407.090][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.090][INFO]: Waiting for pending navigations...
+[1678437407.090][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.090][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.091][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -409,71 +435,45 @@
       "windowsVirtualKeyCode": 87
    }
 }
-[1678436667.989][INFO]: Waiting for pending navigations...
-[1678436667.989][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.990][INFO]: Waiting for pending navigations...
-[1678436667.990][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.990][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436667.991][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND ExecuteScript {
+[1678437407.091][INFO]: Waiting for pending navigations...
+[1678437407.092][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.092][INFO]: Waiting for pending navigations...
+[1678437407.095][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.095][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.097][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND ExecuteScript {
    "args": [  ],
    "script": "return FPS"
 }
-[1678436667.991][INFO]: Waiting for pending navigations...
-[1678436667.991][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.992][INFO]: Waiting for pending navigations...
-[1678436667.992][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.992][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE ExecuteScript 40
-[1678436667.994][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.097][INFO]: Waiting for pending navigations...
+[1678437407.098][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.099][INFO]: Waiting for pending navigations...
+[1678437407.099][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.099][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE ExecuteScript 40
+[1678437407.102][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "type": "rawKeyDown",
       "windowsVirtualKeyCode": 65
    }
 }
-[1678436667.994][INFO]: Waiting for pending navigations...
-[1678436667.994][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.994][INFO]: Waiting for pending navigations...
-[1678436667.995][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.995][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436667.996][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.102][INFO]: Waiting for pending navigations...
+[1678437407.103][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.104][INFO]: Waiting for pending navigations...
+[1678437407.104][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.104][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.106][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "type": "char",
       "windowsVirtualKeyCode": 65
    }
 }
-[1678436667.996][INFO]: Waiting for pending navigations...
-[1678436667.996][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.996][INFO]: Waiting for pending navigations...
-[1678436667.997][INFO]: Done waiting for pending navigations. Status: ok
-[1678436667.997][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.015][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
-   "cmd": "Input.dispatchKeyEvent",
-   "params": {
-      "autoRepeat": true,
-      "type": "rawKeyDown",
-      "windowsVirtualKeyCode": 65
-   }
-}
-[1678436668.015][INFO]: Waiting for pending navigations...
-[1678436668.015][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.016][INFO]: Waiting for pending navigations...
-[1678436668.016][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.016][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.017][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
-   "cmd": "Input.dispatchKeyEvent",
-   "params": {
-      "autoRepeat": true,
-      "type": "char",
-      "windowsVirtualKeyCode": 65
-   }
-}
-[1678436668.017][INFO]: Waiting for pending navigations...
-[1678436668.017][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.018][INFO]: Waiting for pending navigations...
-[1678436668.018][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.018][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.044][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.106][INFO]: Waiting for pending navigations...
+[1678437407.106][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.107][INFO]: Waiting for pending navigations...
+[1678437407.107][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.107][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.131][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -481,12 +481,12 @@
       "windowsVirtualKeyCode": 65
    }
 }
-[1678436668.044][INFO]: Waiting for pending navigations...
-[1678436668.045][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.045][INFO]: Waiting for pending navigations...
-[1678436668.046][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.046][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.047][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.131][INFO]: Waiting for pending navigations...
+[1678437407.132][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.132][INFO]: Waiting for pending navigations...
+[1678437407.133][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.133][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.134][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -494,12 +494,12 @@
       "windowsVirtualKeyCode": 65
    }
 }
-[1678436668.047][INFO]: Waiting for pending navigations...
-[1678436668.047][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.048][INFO]: Waiting for pending navigations...
-[1678436668.048][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.048][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.074][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.134][INFO]: Waiting for pending navigations...
+[1678437407.134][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.134][INFO]: Waiting for pending navigations...
+[1678437407.135][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.135][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.147][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -507,12 +507,12 @@
       "windowsVirtualKeyCode": 65
    }
 }
-[1678436668.075][INFO]: Waiting for pending navigations...
-[1678436668.075][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.076][INFO]: Waiting for pending navigations...
-[1678436668.077][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.077][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.078][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.147][INFO]: Waiting for pending navigations...
+[1678437407.148][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.148][INFO]: Waiting for pending navigations...
+[1678437407.148][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.148][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.150][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -520,12 +520,12 @@
       "windowsVirtualKeyCode": 65
    }
 }
-[1678436668.078][INFO]: Waiting for pending navigations...
-[1678436668.079][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.080][INFO]: Waiting for pending navigations...
-[1678436668.081][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.081][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.106][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.150][INFO]: Waiting for pending navigations...
+[1678437407.150][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.151][INFO]: Waiting for pending navigations...
+[1678437407.151][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.151][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.178][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -533,12 +533,12 @@
       "windowsVirtualKeyCode": 65
    }
 }
-[1678436668.106][INFO]: Waiting for pending navigations...
-[1678436668.107][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.107][INFO]: Waiting for pending navigations...
-[1678436668.108][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.108][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.109][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.178][INFO]: Waiting for pending navigations...
+[1678437407.179][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.179][INFO]: Waiting for pending navigations...
+[1678437407.179][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.179][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.180][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -546,12 +546,12 @@
       "windowsVirtualKeyCode": 65
    }
 }
-[1678436668.109][INFO]: Waiting for pending navigations...
-[1678436668.109][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.110][INFO]: Waiting for pending navigations...
-[1678436668.110][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.110][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.137][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.180][INFO]: Waiting for pending navigations...
+[1678437407.181][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.181][INFO]: Waiting for pending navigations...
+[1678437407.182][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.182][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.194][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -559,12 +559,12 @@
       "windowsVirtualKeyCode": 65
    }
 }
-[1678436668.137][INFO]: Waiting for pending navigations...
-[1678436668.138][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.138][INFO]: Waiting for pending navigations...
-[1678436668.139][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.139][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.141][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.194][INFO]: Waiting for pending navigations...
+[1678437407.194][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.195][INFO]: Waiting for pending navigations...
+[1678437407.195][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.195][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.196][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -572,12 +572,12 @@
       "windowsVirtualKeyCode": 65
    }
 }
-[1678436668.141][INFO]: Waiting for pending navigations...
-[1678436668.142][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.142][INFO]: Waiting for pending navigations...
-[1678436668.142][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.142][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.168][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.196][INFO]: Waiting for pending navigations...
+[1678437407.196][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.197][INFO]: Waiting for pending navigations...
+[1678437407.197][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.197][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.209][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -585,12 +585,12 @@
       "windowsVirtualKeyCode": 65
    }
 }
-[1678436668.168][INFO]: Waiting for pending navigations...
-[1678436668.168][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.169][INFO]: Waiting for pending navigations...
-[1678436668.169][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.169][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.170][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.209][INFO]: Waiting for pending navigations...
+[1678437407.209][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.210][INFO]: Waiting for pending navigations...
+[1678437407.210][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.210][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.211][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -598,12 +598,12 @@
       "windowsVirtualKeyCode": 65
    }
 }
-[1678436668.170][INFO]: Waiting for pending navigations...
-[1678436668.170][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.171][INFO]: Waiting for pending navigations...
-[1678436668.171][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.171][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.197][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.211][INFO]: Waiting for pending navigations...
+[1678437407.211][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.213][INFO]: Waiting for pending navigations...
+[1678437407.213][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.213][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.240][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -611,12 +611,12 @@
       "windowsVirtualKeyCode": 65
    }
 }
-[1678436668.197][INFO]: Waiting for pending navigations...
-[1678436668.198][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.198][INFO]: Waiting for pending navigations...
-[1678436668.198][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.198][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.200][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.240][INFO]: Waiting for pending navigations...
+[1678437407.241][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.241][INFO]: Waiting for pending navigations...
+[1678437407.242][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.242][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.243][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -624,12 +624,90 @@
       "windowsVirtualKeyCode": 65
    }
 }
-[1678436668.200][INFO]: Waiting for pending navigations...
-[1678436668.200][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.201][INFO]: Waiting for pending navigations...
-[1678436668.201][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.201][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.203][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.243][INFO]: Waiting for pending navigations...
+[1678437407.244][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.244][INFO]: Waiting for pending navigations...
+[1678437407.244][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.244][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.270][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
+   "cmd": "Input.dispatchKeyEvent",
+   "params": {
+      "autoRepeat": true,
+      "type": "rawKeyDown",
+      "windowsVirtualKeyCode": 65
+   }
+}
+[1678437407.270][INFO]: Waiting for pending navigations...
+[1678437407.270][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.271][INFO]: Waiting for pending navigations...
+[1678437407.271][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.271][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.272][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
+   "cmd": "Input.dispatchKeyEvent",
+   "params": {
+      "autoRepeat": true,
+      "type": "char",
+      "windowsVirtualKeyCode": 65
+   }
+}
+[1678437407.272][INFO]: Waiting for pending navigations...
+[1678437407.272][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.273][INFO]: Waiting for pending navigations...
+[1678437407.273][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.273][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.286][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
+   "cmd": "Input.dispatchKeyEvent",
+   "params": {
+      "autoRepeat": true,
+      "type": "rawKeyDown",
+      "windowsVirtualKeyCode": 65
+   }
+}
+[1678437407.286][INFO]: Waiting for pending navigations...
+[1678437407.286][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.287][INFO]: Waiting for pending navigations...
+[1678437407.287][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.287][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.288][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
+   "cmd": "Input.dispatchKeyEvent",
+   "params": {
+      "autoRepeat": true,
+      "type": "char",
+      "windowsVirtualKeyCode": 65
+   }
+}
+[1678437407.289][INFO]: Waiting for pending navigations...
+[1678437407.289][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.289][INFO]: Waiting for pending navigations...
+[1678437407.290][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.290][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.301][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
+   "cmd": "Input.dispatchKeyEvent",
+   "params": {
+      "autoRepeat": true,
+      "type": "rawKeyDown",
+      "windowsVirtualKeyCode": 65
+   }
+}
+[1678437407.301][INFO]: Waiting for pending navigations...
+[1678437407.302][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.303][INFO]: Waiting for pending navigations...
+[1678437407.303][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.303][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.304][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
+   "cmd": "Input.dispatchKeyEvent",
+   "params": {
+      "autoRepeat": true,
+      "type": "char",
+      "windowsVirtualKeyCode": 65
+   }
+}
+[1678437407.304][INFO]: Waiting for pending navigations...
+[1678437407.305][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.305][INFO]: Waiting for pending navigations...
+[1678437407.306][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.306][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.307][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -637,71 +715,45 @@
       "windowsVirtualKeyCode": 65
    }
 }
-[1678436668.203][INFO]: Waiting for pending navigations...
-[1678436668.203][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.204][INFO]: Waiting for pending navigations...
-[1678436668.204][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.204][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.205][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND ExecuteScript {
+[1678437407.307][INFO]: Waiting for pending navigations...
+[1678437407.307][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.307][INFO]: Waiting for pending navigations...
+[1678437407.308][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.308][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.309][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND ExecuteScript {
    "args": [  ],
    "script": "return FPS"
 }
-[1678436668.205][INFO]: Waiting for pending navigations...
-[1678436668.205][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.206][INFO]: Waiting for pending navigations...
-[1678436668.206][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.206][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE ExecuteScript 40
-[1678436668.208][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.309][INFO]: Waiting for pending navigations...
+[1678437407.309][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.310][INFO]: Waiting for pending navigations...
+[1678437407.310][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.310][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE ExecuteScript 40
+[1678437407.311][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "type": "rawKeyDown",
       "windowsVirtualKeyCode": 83
    }
 }
-[1678436668.208][INFO]: Waiting for pending navigations...
-[1678436668.208][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.209][INFO]: Waiting for pending navigations...
-[1678436668.210][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.210][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.211][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.312][INFO]: Waiting for pending navigations...
+[1678437407.312][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.312][INFO]: Waiting for pending navigations...
+[1678437407.313][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.313][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.314][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "type": "char",
       "windowsVirtualKeyCode": 83
    }
 }
-[1678436668.211][INFO]: Waiting for pending navigations...
-[1678436668.211][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.211][INFO]: Waiting for pending navigations...
-[1678436668.212][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.212][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.227][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
-   "cmd": "Input.dispatchKeyEvent",
-   "params": {
-      "autoRepeat": true,
-      "type": "rawKeyDown",
-      "windowsVirtualKeyCode": 83
-   }
-}
-[1678436668.227][INFO]: Waiting for pending navigations...
-[1678436668.228][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.228][INFO]: Waiting for pending navigations...
-[1678436668.229][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.229][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.230][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
-   "cmd": "Input.dispatchKeyEvent",
-   "params": {
-      "autoRepeat": true,
-      "type": "char",
-      "windowsVirtualKeyCode": 83
-   }
-}
-[1678436668.230][INFO]: Waiting for pending navigations...
-[1678436668.231][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.231][INFO]: Waiting for pending navigations...
-[1678436668.231][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.231][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.243][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.314][INFO]: Waiting for pending navigations...
+[1678437407.314][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.314][INFO]: Waiting for pending navigations...
+[1678437407.314][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.314][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.333][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -709,12 +761,12 @@
       "windowsVirtualKeyCode": 83
    }
 }
-[1678436668.243][INFO]: Waiting for pending navigations...
-[1678436668.243][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.244][INFO]: Waiting for pending navigations...
-[1678436668.244][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.244][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.246][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.333][INFO]: Waiting for pending navigations...
+[1678437407.334][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.334][INFO]: Waiting for pending navigations...
+[1678437407.335][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.335][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.336][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -722,12 +774,12 @@
       "windowsVirtualKeyCode": 83
    }
 }
-[1678436668.246][INFO]: Waiting for pending navigations...
-[1678436668.246][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.246][INFO]: Waiting for pending navigations...
-[1678436668.247][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.247][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.258][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.336][INFO]: Waiting for pending navigations...
+[1678437407.336][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.337][INFO]: Waiting for pending navigations...
+[1678437407.337][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.337][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.364][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -735,12 +787,12 @@
       "windowsVirtualKeyCode": 83
    }
 }
-[1678436668.259][INFO]: Waiting for pending navigations...
-[1678436668.259][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.259][INFO]: Waiting for pending navigations...
-[1678436668.260][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.260][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.261][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.364][INFO]: Waiting for pending navigations...
+[1678437407.365][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.366][INFO]: Waiting for pending navigations...
+[1678437407.367][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.367][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.368][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -748,12 +800,12 @@
       "windowsVirtualKeyCode": 83
    }
 }
-[1678436668.261][INFO]: Waiting for pending navigations...
-[1678436668.261][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.261][INFO]: Waiting for pending navigations...
-[1678436668.262][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.262][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.274][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.368][INFO]: Waiting for pending navigations...
+[1678437407.369][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.369][INFO]: Waiting for pending navigations...
+[1678437407.370][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.370][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.394][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -761,12 +813,12 @@
       "windowsVirtualKeyCode": 83
    }
 }
-[1678436668.274][INFO]: Waiting for pending navigations...
-[1678436668.275][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.275][INFO]: Waiting for pending navigations...
-[1678436668.276][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.276][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.278][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.394][INFO]: Waiting for pending navigations...
+[1678437407.395][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.395][INFO]: Waiting for pending navigations...
+[1678437407.395][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.395][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.396][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -774,12 +826,12 @@
       "windowsVirtualKeyCode": 83
    }
 }
-[1678436668.278][INFO]: Waiting for pending navigations...
-[1678436668.278][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.278][INFO]: Waiting for pending navigations...
-[1678436668.279][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.279][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.304][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.396][INFO]: Waiting for pending navigations...
+[1678437407.397][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.397][INFO]: Waiting for pending navigations...
+[1678437407.398][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.398][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.409][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -787,12 +839,12 @@
       "windowsVirtualKeyCode": 83
    }
 }
-[1678436668.304][INFO]: Waiting for pending navigations...
-[1678436668.305][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.306][INFO]: Waiting for pending navigations...
-[1678436668.307][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.307][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.308][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.409][INFO]: Waiting for pending navigations...
+[1678437407.410][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.410][INFO]: Waiting for pending navigations...
+[1678437407.410][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.410][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.411][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -800,12 +852,12 @@
       "windowsVirtualKeyCode": 83
    }
 }
-[1678436668.309][INFO]: Waiting for pending navigations...
-[1678436668.309][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.309][INFO]: Waiting for pending navigations...
-[1678436668.310][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.310][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.335][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.411][INFO]: Waiting for pending navigations...
+[1678437407.412][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.412][INFO]: Waiting for pending navigations...
+[1678437407.412][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.412][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.425][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -813,12 +865,12 @@
       "windowsVirtualKeyCode": 83
    }
 }
-[1678436668.335][INFO]: Waiting for pending navigations...
-[1678436668.336][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.336][INFO]: Waiting for pending navigations...
-[1678436668.336][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.337][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.338][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.425][INFO]: Waiting for pending navigations...
+[1678437407.426][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.426][INFO]: Waiting for pending navigations...
+[1678437407.427][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.427][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.428][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -826,12 +878,12 @@
       "windowsVirtualKeyCode": 83
    }
 }
-[1678436668.338][INFO]: Waiting for pending navigations...
-[1678436668.338][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.338][INFO]: Waiting for pending navigations...
-[1678436668.338][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.339][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.351][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.428][INFO]: Waiting for pending navigations...
+[1678437407.429][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.430][INFO]: Waiting for pending navigations...
+[1678437407.430][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.430][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.457][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -839,12 +891,12 @@
       "windowsVirtualKeyCode": 83
    }
 }
-[1678436668.351][INFO]: Waiting for pending navigations...
-[1678436668.352][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.352][INFO]: Waiting for pending navigations...
-[1678436668.352][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.352][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.354][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.457][INFO]: Waiting for pending navigations...
+[1678437407.457][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.458][INFO]: Waiting for pending navigations...
+[1678437407.458][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.458][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.459][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -852,12 +904,12 @@
       "windowsVirtualKeyCode": 83
    }
 }
-[1678436668.354][INFO]: Waiting for pending navigations...
-[1678436668.354][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.355][INFO]: Waiting for pending navigations...
-[1678436668.355][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.355][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.366][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.459][INFO]: Waiting for pending navigations...
+[1678437407.460][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.460][INFO]: Waiting for pending navigations...
+[1678437407.460][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.460][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.472][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -865,12 +917,12 @@
       "windowsVirtualKeyCode": 83
    }
 }
-[1678436668.366][INFO]: Waiting for pending navigations...
-[1678436668.367][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.368][INFO]: Waiting for pending navigations...
-[1678436668.368][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.368][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.369][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.472][INFO]: Waiting for pending navigations...
+[1678437407.473][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.474][INFO]: Waiting for pending navigations...
+[1678437407.474][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.474][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.475][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -878,12 +930,12 @@
       "windowsVirtualKeyCode": 83
    }
 }
-[1678436668.369][INFO]: Waiting for pending navigations...
-[1678436668.369][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.370][INFO]: Waiting for pending navigations...
-[1678436668.370][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.370][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.382][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.475][INFO]: Waiting for pending navigations...
+[1678437407.476][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.477][INFO]: Waiting for pending navigations...
+[1678437407.477][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.477][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.503][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -891,12 +943,12 @@
       "windowsVirtualKeyCode": 83
    }
 }
-[1678436668.382][INFO]: Waiting for pending navigations...
-[1678436668.383][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.383][INFO]: Waiting for pending navigations...
-[1678436668.384][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.384][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.385][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.503][INFO]: Waiting for pending navigations...
+[1678437407.504][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.505][INFO]: Waiting for pending navigations...
+[1678437407.505][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.505][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.506][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -904,12 +956,12 @@
       "windowsVirtualKeyCode": 83
    }
 }
-[1678436668.385][INFO]: Waiting for pending navigations...
-[1678436668.385][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.385][INFO]: Waiting for pending navigations...
-[1678436668.386][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.386][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.397][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.506][INFO]: Waiting for pending navigations...
+[1678437407.507][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.507][INFO]: Waiting for pending navigations...
+[1678437407.507][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.507][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.519][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -917,12 +969,12 @@
       "windowsVirtualKeyCode": 83
    }
 }
-[1678436668.397][INFO]: Waiting for pending navigations...
-[1678436668.398][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.398][INFO]: Waiting for pending navigations...
-[1678436668.399][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.399][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.400][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.519][INFO]: Waiting for pending navigations...
+[1678437407.520][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.520][INFO]: Waiting for pending navigations...
+[1678437407.521][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.521][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.522][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -930,38 +982,12 @@
       "windowsVirtualKeyCode": 83
    }
 }
-[1678436668.400][INFO]: Waiting for pending navigations...
-[1678436668.400][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.400][INFO]: Waiting for pending navigations...
-[1678436668.401][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.401][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.413][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
-   "cmd": "Input.dispatchKeyEvent",
-   "params": {
-      "autoRepeat": true,
-      "type": "rawKeyDown",
-      "windowsVirtualKeyCode": 83
-   }
-}
-[1678436668.413][INFO]: Waiting for pending navigations...
-[1678436668.414][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.414][INFO]: Waiting for pending navigations...
-[1678436668.414][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.415][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.416][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
-   "cmd": "Input.dispatchKeyEvent",
-   "params": {
-      "autoRepeat": true,
-      "type": "char",
-      "windowsVirtualKeyCode": 83
-   }
-}
-[1678436668.416][INFO]: Waiting for pending navigations...
-[1678436668.416][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.417][INFO]: Waiting for pending navigations...
-[1678436668.418][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.418][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.419][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.522][INFO]: Waiting for pending navigations...
+[1678437407.522][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.522][INFO]: Waiting for pending navigations...
+[1678437407.522][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.523][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.523][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -969,71 +995,45 @@
       "windowsVirtualKeyCode": 83
    }
 }
-[1678436668.419][INFO]: Waiting for pending navigations...
-[1678436668.419][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.420][INFO]: Waiting for pending navigations...
-[1678436668.420][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.420][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.421][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND ExecuteScript {
+[1678437407.523][INFO]: Waiting for pending navigations...
+[1678437407.524][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.524][INFO]: Waiting for pending navigations...
+[1678437407.525][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.525][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.526][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND ExecuteScript {
    "args": [  ],
    "script": "return FPS"
 }
-[1678436668.421][INFO]: Waiting for pending navigations...
-[1678436668.421][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.422][INFO]: Waiting for pending navigations...
-[1678436668.423][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.423][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE ExecuteScript 40
-[1678436668.424][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.526][INFO]: Waiting for pending navigations...
+[1678437407.526][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.527][INFO]: Waiting for pending navigations...
+[1678437407.527][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.528][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE ExecuteScript 40
+[1678437407.528][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "type": "rawKeyDown",
       "windowsVirtualKeyCode": 68
    }
 }
-[1678436668.424][INFO]: Waiting for pending navigations...
-[1678436668.425][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.425][INFO]: Waiting for pending navigations...
-[1678436668.425][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.425][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.426][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.529][INFO]: Waiting for pending navigations...
+[1678437407.529][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.529][INFO]: Waiting for pending navigations...
+[1678437407.530][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.530][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.531][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "type": "char",
       "windowsVirtualKeyCode": 68
    }
 }
-[1678436668.426][INFO]: Waiting for pending navigations...
-[1678436668.427][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.427][INFO]: Waiting for pending navigations...
-[1678436668.427][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.427][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.443][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
-   "cmd": "Input.dispatchKeyEvent",
-   "params": {
-      "autoRepeat": true,
-      "type": "rawKeyDown",
-      "windowsVirtualKeyCode": 68
-   }
-}
-[1678436668.443][INFO]: Waiting for pending navigations...
-[1678436668.444][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.445][INFO]: Waiting for pending navigations...
-[1678436668.446][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.446][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.447][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
-   "cmd": "Input.dispatchKeyEvent",
-   "params": {
-      "autoRepeat": true,
-      "type": "char",
-      "windowsVirtualKeyCode": 68
-   }
-}
-[1678436668.447][INFO]: Waiting for pending navigations...
-[1678436668.447][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.447][INFO]: Waiting for pending navigations...
-[1678436668.448][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.448][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.460][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.531][INFO]: Waiting for pending navigations...
+[1678437407.532][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.532][INFO]: Waiting for pending navigations...
+[1678437407.533][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.533][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.551][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -1041,12 +1041,12 @@
       "windowsVirtualKeyCode": 68
    }
 }
-[1678436668.460][INFO]: Waiting for pending navigations...
-[1678436668.460][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.461][INFO]: Waiting for pending navigations...
-[1678436668.462][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.462][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.463][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.551][INFO]: Waiting for pending navigations...
+[1678437407.552][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.553][INFO]: Waiting for pending navigations...
+[1678437407.553][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.553][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.555][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -1054,12 +1054,12 @@
       "windowsVirtualKeyCode": 68
    }
 }
-[1678436668.463][INFO]: Waiting for pending navigations...
-[1678436668.463][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.464][INFO]: Waiting for pending navigations...
-[1678436668.465][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.465][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.491][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.555][INFO]: Waiting for pending navigations...
+[1678437407.555][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.555][INFO]: Waiting for pending navigations...
+[1678437407.556][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.556][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.582][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -1067,12 +1067,12 @@
       "windowsVirtualKeyCode": 68
    }
 }
-[1678436668.491][INFO]: Waiting for pending navigations...
-[1678436668.492][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.493][INFO]: Waiting for pending navigations...
-[1678436668.493][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.493][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.494][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.582][INFO]: Waiting for pending navigations...
+[1678437407.582][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.582][INFO]: Waiting for pending navigations...
+[1678437407.583][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.583][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.584][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -1080,12 +1080,12 @@
       "windowsVirtualKeyCode": 68
    }
 }
-[1678436668.494][INFO]: Waiting for pending navigations...
-[1678436668.495][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.495][INFO]: Waiting for pending navigations...
-[1678436668.496][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.496][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.508][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.584][INFO]: Waiting for pending navigations...
+[1678437407.584][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.585][INFO]: Waiting for pending navigations...
+[1678437407.585][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.585][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.597][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -1093,12 +1093,12 @@
       "windowsVirtualKeyCode": 68
    }
 }
-[1678436668.508][INFO]: Waiting for pending navigations...
-[1678436668.509][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.510][INFO]: Waiting for pending navigations...
-[1678436668.510][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.510][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.511][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.598][INFO]: Waiting for pending navigations...
+[1678437407.598][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.599][INFO]: Waiting for pending navigations...
+[1678437407.599][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.599][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.600][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -1106,12 +1106,12 @@
       "windowsVirtualKeyCode": 68
    }
 }
-[1678436668.512][INFO]: Waiting for pending navigations...
-[1678436668.512][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.512][INFO]: Waiting for pending navigations...
-[1678436668.513][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.513][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.539][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.600][INFO]: Waiting for pending navigations...
+[1678437407.601][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.601][INFO]: Waiting for pending navigations...
+[1678437407.602][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.602][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.628][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -1119,12 +1119,12 @@
       "windowsVirtualKeyCode": 68
    }
 }
-[1678436668.539][INFO]: Waiting for pending navigations...
-[1678436668.540][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.540][INFO]: Waiting for pending navigations...
-[1678436668.541][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.541][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.542][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.628][INFO]: Waiting for pending navigations...
+[1678437407.629][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.631][INFO]: Waiting for pending navigations...
+[1678437407.631][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.631][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.632][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -1132,12 +1132,12 @@
       "windowsVirtualKeyCode": 68
    }
 }
-[1678436668.542][INFO]: Waiting for pending navigations...
-[1678436668.543][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.543][INFO]: Waiting for pending navigations...
-[1678436668.543][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.543][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.569][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.632][INFO]: Waiting for pending navigations...
+[1678437407.633][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.633][INFO]: Waiting for pending navigations...
+[1678437407.633][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.633][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.644][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -1145,12 +1145,12 @@
       "windowsVirtualKeyCode": 68
    }
 }
-[1678436668.569][INFO]: Waiting for pending navigations...
-[1678436668.570][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.571][INFO]: Waiting for pending navigations...
-[1678436668.571][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.571][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.572][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.644][INFO]: Waiting for pending navigations...
+[1678437407.645][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.645][INFO]: Waiting for pending navigations...
+[1678437407.646][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.646][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.647][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -1158,12 +1158,12 @@
       "windowsVirtualKeyCode": 68
    }
 }
-[1678436668.572][INFO]: Waiting for pending navigations...
-[1678436668.573][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.573][INFO]: Waiting for pending navigations...
-[1678436668.574][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.574][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.585][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.647][INFO]: Waiting for pending navigations...
+[1678437407.647][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.647][INFO]: Waiting for pending navigations...
+[1678437407.648][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.648][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.659][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -1171,12 +1171,12 @@
       "windowsVirtualKeyCode": 68
    }
 }
-[1678436668.585][INFO]: Waiting for pending navigations...
-[1678436668.586][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.586][INFO]: Waiting for pending navigations...
-[1678436668.587][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.587][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.588][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.659][INFO]: Waiting for pending navigations...
+[1678437407.660][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.660][INFO]: Waiting for pending navigations...
+[1678437407.660][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.660][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.661][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -1184,12 +1184,12 @@
       "windowsVirtualKeyCode": 68
    }
 }
-[1678436668.588][INFO]: Waiting for pending navigations...
-[1678436668.589][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.590][INFO]: Waiting for pending navigations...
-[1678436668.590][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.590][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.616][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.661][INFO]: Waiting for pending navigations...
+[1678437407.662][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.662][INFO]: Waiting for pending navigations...
+[1678437407.663][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.663][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.675][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -1197,12 +1197,12 @@
       "windowsVirtualKeyCode": 68
    }
 }
-[1678436668.616][INFO]: Waiting for pending navigations...
-[1678436668.617][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.618][INFO]: Waiting for pending navigations...
-[1678436668.618][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.618][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.619][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.675][INFO]: Waiting for pending navigations...
+[1678437407.676][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.676][INFO]: Waiting for pending navigations...
+[1678437407.677][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.677][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.679][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -1210,12 +1210,12 @@
       "windowsVirtualKeyCode": 68
    }
 }
-[1678436668.620][INFO]: Waiting for pending navigations...
-[1678436668.620][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.620][INFO]: Waiting for pending navigations...
-[1678436668.621][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.621][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.631][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.679][INFO]: Waiting for pending navigations...
+[1678437407.679][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.679][INFO]: Waiting for pending navigations...
+[1678437407.680][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.680][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.692][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -1223,12 +1223,12 @@
       "windowsVirtualKeyCode": 68
    }
 }
-[1678436668.632][INFO]: Waiting for pending navigations...
-[1678436668.632][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.633][INFO]: Waiting for pending navigations...
-[1678436668.633][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.633][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.634][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.692][INFO]: Waiting for pending navigations...
+[1678437407.692][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.693][INFO]: Waiting for pending navigations...
+[1678437407.694][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.694][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.695][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -1236,12 +1236,64 @@
       "windowsVirtualKeyCode": 68
    }
 }
-[1678436668.634][INFO]: Waiting for pending navigations...
-[1678436668.635][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.635][INFO]: Waiting for pending navigations...
-[1678436668.635][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.635][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.636][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SendCommand {
+[1678437407.695][INFO]: Waiting for pending navigations...
+[1678437407.695][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.695][INFO]: Waiting for pending navigations...
+[1678437407.696][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.696][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.722][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
+   "cmd": "Input.dispatchKeyEvent",
+   "params": {
+      "autoRepeat": true,
+      "type": "rawKeyDown",
+      "windowsVirtualKeyCode": 68
+   }
+}
+[1678437407.722][INFO]: Waiting for pending navigations...
+[1678437407.723][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.723][INFO]: Waiting for pending navigations...
+[1678437407.723][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.723][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.724][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
+   "cmd": "Input.dispatchKeyEvent",
+   "params": {
+      "autoRepeat": true,
+      "type": "char",
+      "windowsVirtualKeyCode": 68
+   }
+}
+[1678437407.724][INFO]: Waiting for pending navigations...
+[1678437407.725][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.725][INFO]: Waiting for pending navigations...
+[1678437407.726][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.726][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.752][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
+   "cmd": "Input.dispatchKeyEvent",
+   "params": {
+      "autoRepeat": true,
+      "type": "rawKeyDown",
+      "windowsVirtualKeyCode": 68
+   }
+}
+[1678437407.752][INFO]: Waiting for pending navigations...
+[1678437407.753][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.753][INFO]: Waiting for pending navigations...
+[1678437407.754][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.754][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.755][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
+   "cmd": "Input.dispatchKeyEvent",
+   "params": {
+      "autoRepeat": true,
+      "type": "char",
+      "windowsVirtualKeyCode": 68
+   }
+}
+[1678437407.755][INFO]: Waiting for pending navigations...
+[1678437407.755][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.756][INFO]: Waiting for pending navigations...
+[1678437407.756][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.756][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.757][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SendCommand {
    "cmd": "Input.dispatchKeyEvent",
    "params": {
       "autoRepeat": true,
@@ -1249,16 +1301,16 @@
       "windowsVirtualKeyCode": 68
    }
 }
-[1678436668.636][INFO]: Waiting for pending navigations...
-[1678436668.637][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.637][INFO]: Waiting for pending navigations...
-[1678436668.637][INFO]: Done waiting for pending navigations. Status: ok
-[1678436668.637][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SendCommand
-[1678436668.639][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND SetTimeouts {
+[1678437407.757][INFO]: Waiting for pending navigations...
+[1678437407.758][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.759][INFO]: Waiting for pending navigations...
+[1678437407.759][INFO]: Done waiting for pending navigations. Status: ok
+[1678437407.759][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SendCommand
+[1678437407.760][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND SetTimeouts {
    "implicit": 10000
 }
-[1678436668.639][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE SetTimeouts
-[1678436668.641][INFO]: [07742756ddd698a055321e4276b5efc0] COMMAND QuitAll {
+[1678437407.760][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE SetTimeouts
+[1678437407.762][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] COMMAND QuitAll {
 }
-[1678436668.641][INFO]: [07742756ddd698a055321e4276b5efc0] RESPONSE QuitAll
-[1678436668.641][WARNING]: Microsoft Edge quit unexpectedly, leaving behind temporary directoriesfor debugging:
+[1678437407.762][INFO]: [9d6b220b3cb61399c0a3bfeca9374fe6] RESPONSE QuitAll
+[1678437407.762][WARNING]: Microsoft Edge quit unexpectedly, leaving behind temporary directoriesfor debugging:
