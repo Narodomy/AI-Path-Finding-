@@ -4,6 +4,11 @@ from game.map import Wall, Win
 
 class MapLevel01:
     def __init__(self):
+        # Player position
+        self.player_x = 75
+        self.player_y = 146
+
+        self.coin = Coin()
         self.area = Win(738, 84, 1, 42)
         self.ball1 = Ball(235, 154, 1)
         self.ball2 = Ball(665, 202, 2)
@@ -12,6 +17,9 @@ class MapLevel01:
 
         # Lists
         self.balls = [self.ball1, self.ball2, self.ball3, self.ball4]
+
+        for ball in self.balls:
+            ball.limit = [665, 235]
 
         self.wall1 = Wall(15, 78, 6, 294, 'e')
         self.wall2 = Wall(255, 318, 437, 6, 'i')
@@ -40,34 +48,42 @@ class MapLevel01:
 
 class MapLevel02:
     def __init__(self):
+        # Player position
+        self.player_x = 118
+        self.player_y = 185
         # Coin
         self.coin = Coin()
-
+        self.coin.x = 474
+        self.coin.y = 186
+        self.area = Win(763, 142, 1, 90)
         # balls Superiores
-        self.ball1 = Ball(67, 1)
-        self.ball3 = Ball(67, 3)
-        self.ball5 = Ball(67, 5)
-        self.ball7 = Ball(67, 7)
-        self.ball9 = Ball(67, 9)
-        self.ball11 = Ball(67, 11)
+        self.ball1 = Ball(0, 67, 1)
+        self.ball3 = Ball(0, 67, 3)
+        self.ball5 = Ball(0, 67, 5)
+        self.ball7 = Ball(0, 67, 7)
+        self.ball9 = Ball(0, 67, 9)
+        self.ball11 = Ball(0, 67, 11)
 
         # balls Inferiores
-        self.ball2 = Ball(306, 2)
-        self.ball4 = Ball(306, 4)
-        self.ball6 = Ball(306, 6)
-        self.ball8 = Ball(306, 8)
-        self.ball10 = Ball(306, 10)
-        self.ball12 = Ball(306, 12)
+        self.ball2 = Ball(0, 306, 2)
+        self.ball4 = Ball(0, 306, 4)
+        self.ball6 = Ball(0, 306, 6)
+        self.ball8 = Ball(0, 306, 8)
+        self.ball10 = Ball(0, 306, 10)
+        self.ball12 = Ball(0, 306, 12)
 
         self.balls = [self.ball1, self.ball2, self.ball3, self.ball4, self.ball5, self.ball6, self.ball7, self.ball8,
                       self.ball9, self.ball10, self.ball11, self.ball12]
+
+        for ball in self.balls:
+            ball.lv2()
+            ball.limit = [318, 67]
 
         self.wall1 = Wall(40, 232, 150, 6, 'i')
         self.wall2 = Wall(40, 136, 6, 102, 'e')
         self.wall3 = Wall(40, 136, 150, 6, 's')
         self.wall4 = Wall(184, 40, 6, 102, 'e')
         self.wall5 = Wall(184, 40, 582, 6, 's')
-
         self.wall6 = Wall(759, 40, 6, 102, 'd')
         self.wall7 = Wall(759, 232, 6, 102, 'd')
         self.wall8 = Wall(184, 328, 582, 6, 'i')

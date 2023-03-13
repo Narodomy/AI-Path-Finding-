@@ -11,10 +11,23 @@ from game.map_data import *
 pygame.init()
 pygame.display.init()
 win = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Hardest Game in the World! (level 1)")
 
+# Level 1
+pygame.display.set_caption("Hardest Game in the World! (level 1)")
 map_surface = pygame.image.load('./game/resources/images/maps/level_1.png').convert_alpha()
-map_rect = map_surface.get_rect(center=(WIDTH // 2, HEIGHT // 2))
+WIDTH = 900
+HEIGHT = 450
+
+# Level 2
+# pygame.display.set_caption("Hardest Game in the World! (level 2)")
+# map_surface = pygame.image.load('./game/resources/images/maps/level_2.png').convert_alpha()
+# WIDTH = 950
+# HEIGHT = 375
+
+
+# GAME
+level = 1
+final_map = False
 
 # NEAT
 GEN = 0
@@ -22,17 +35,26 @@ atw = 0
 
 
 # DRAW WINDOW
-def draw_window(win, balls, players, area):
+def draw_window(win, balls, players, coins, area, level):
+    title = 'Hardest Game in the World! (level {})'.format(level)
+    source = './game/resources/images/maps/level_{}.png'.format(level)
+    # if (next_map):
+    pygame.display.set_caption(title)
+    map_surface = pygame.image.load(source).convert_alpha()
+    map_rect = map_surface.get_rect(center=(WIDTH // 2, HEIGHT // 2))
+
     win.fill(GROUND)
     win.blit(map_surface, map_rect)
 
     for b in balls:
         b.draw(win)
 
+    coins.draw(win)
+
     for p in players:
         if p in players:
             p.draw(win)
-            p.target_information(win, area, True)
+            p.target_information(win, area, coins, True)
 
     # LEFT
 
@@ -70,51 +92,65 @@ def main(genomes, config):
     global won
     global atw
 
+    # GAME
+    global level
+    global final_map
     GEN += 1
     WIN_ON = True
-    time_max = 10
+    time_max = 16
     won = 0
 
-    # Objects
-    map = MapLevel01()
+    # Game Setup
+    map = level == 1 and MapLevel01() or MapLevel02()
+    # Coins
+    coins = map.coin
 
-    area = Win(738, 84, 1, 42)
-
-    ball1 = Ball(235, 154, 1)
-    ball2 = Ball(665, 202, 2)
-    ball3 = Ball(235, 250, 3)
-    ball4 = Ball(665, 298, 4)
+    # Area
+    area = map.area
 
     # Lists
-    balls = [ball1, ball2, ball3, ball4]
+    balls = map.balls
 
     players = []
     nets = []
     ge = []
 
     # Load model
-    with open('pickle_rl_model.pkl', 'rb') as file:
+    with open('./models/pickle_square_model_3.pkl', 'rb') as file:
         clf = pickle.load(file)
 
+    # NEAT
     for genomes_id, gnome in genomes:
         # net = neat.nn.FeedForwardNetwork.create(clf, config)
         net = neat.nn.FeedForwardNetwork.create(gnome, config)
 
         nets.append(net)
-        players.append(Player())
+        player_on_map = Player()
+        player_on_map.x = map.player_x
+        player_on_map.y = map.player_y
+        players.append(player_on_map)
 
         gnome.fitness = 0
         ge.append(gnome)
 
+    if level == 2:
+        final_map = True
+        width = 950
+        height = 375
+        window = pygame.display.set_mode((width, height))
+        draw_window(window, balls, players, coins, area, level)
+        for p in players:
+            p.x = map.player_x
+            p.y = map.player_y
+
     clock = pygame.time.Clock()
     start_time = pygame.time.get_ticks()
     run = True
-
     # Main loop
     while run and len(players) > 0:
         if WIN_ON: clock.tick(FPS)
 
-        # Tempo
+        # Time
         time = (pygame.time.get_ticks() - start_time) / 1000
 
         for event in pygame.event.get():
@@ -132,16 +168,26 @@ def main(genomes, config):
             player.collision_balls(balls)
             player.collision_walls(map)
             player.collision_win(area)
+            player.collision_coins(coins)
 
+            # Which balls will be provided to NN
+            ball1_ind = 0
+            ball2_ind = 1
+            if len(players) > 0:
+                for i in range(len(balls) - 1):
+                    if player.x >= 716:
+                        ball1_ind = len(balls) - 1
+                        ball2_ind = len(balls) - 1
+                    elif balls[i].x <= player.x <= balls[i + 1].x:
+                        ball1_ind = i
+                        ball2_ind = i + 1
             # Inputs NN
             outputs = nets[players.index(player)].activate(
                 (
-                    player.x, player.y,
-
-                    ball1.x, ball1.y,
-                    ball2.x, ball2.y,
-                    ball3.x, ball3.y,
-                    ball4.x, ball4.y,
+                    player.x, player.y,  # player position
+                    player.target.x, player.target.y,  # Distance from player to target
+                    balls[ball1_ind].x, balls[ball1_ind].y,  # ball closer to the left
+                    balls[ball2_ind].x, balls[ball2_ind].y  # Distance from player to nearest ball 2
                 )
             )
 
@@ -168,16 +214,21 @@ def main(genomes, config):
             if player.collided:
                 remove_player(nets, ge, x, players, player, -2.5)
 
+            # Pass the coin without picking it up
+            if player.x >= coins.x and not player.coin:
+                remove_player(nets, ge, x, players, player, -10)
+
             # Won:
             if player.win:
-                # count = 0
-                # for p in players:
-                #     if p.win:
-                #         count += 1
-                # if count > (len(players) * (3 / 4)):
-                print("Player Win: {} atw: {} won: {}".format(player.win, atw, won))
                 if atw >= (len(players) * (3 / 4)):
-                    remove_player(nets, ge, x, players, player, 99999999)
+                    if final_map :
+                        remove_player(nets, ge, x, players, player, 99999999)
+                    # else:
+                    #     remove_player(nets, ge, x, players, player, 5000)
+                    level = 2
+                    # time = time_max
+                    atw = 0
+                    print("PLAYERS:{}".format(len(players)))
                 else:
                     remove_player(nets, ge, x, players, player, 5000)
                     won += 1
@@ -189,7 +240,7 @@ def main(genomes, config):
                     remove_player(nets, ge, x, players, player, -5)  # -5 fitness
 
         if WIN_ON:
-            draw_window(win, balls, players, area)  # Draw everything
+            draw_window(win, balls, players, coins, area, level)  # Draw everything
 
 
 # NEW GENERATION
